@@ -1,0 +1,122 @@
+main{
+    width: 100%;
+}
+
+.main {
+    margin: 56px 258px 56px 253px;
+    background-color: white;
+}
+
+.firsth{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: "Roboto";
+    margin-bottom: 36px;
+}
+
+.content{
+    display: flex;
+}
+#firstCurrency{
+    padding-right: 245px;
+}
+.ch{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #9F9F9F;
+    padding-bottom: 14px;
+}
+
+.change-buttons {
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.change-buttons button:nth-child(1) {
+    box-sizing: border-box;
+    border-radius: 2.9px 0px 0px 2.9px;
+}
+
+.change-buttons button:nth-child(1),
+.change-buttons button:nth-child(2),
+.change-buttons button:nth-child(3),
+.change-buttons button:nth-child(4) {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.change-buttons button:nth-child(1) {
+    border-radius: 2.9px 0px 0px 2.9px;
+}
+
+.change-buttons button:nth-child(4) {
+    border-radius: 0px 2.9px 2.9px 0px;
+}
+
+.change-buttons button {
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: white;
+    width: 65.06px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C6C6C6;
+    border: none;
+
+}
+
+.colored{
+    background-color: #833AE0 !important;
+    color: white !important;
+}
+
+.value-div {
+    width: 259px;
+    height: 102px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 11px 14px 5px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.one {
+    color: #C6C6C6;
+    margin-left: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+
+    height: 28px;
+}
+
+.money {
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: black;
+
+}
+.money:focus {
+    outline: none;
+}

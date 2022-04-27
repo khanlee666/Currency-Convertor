@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Convertor</title>
+</head>
+
+<body>
+    <section>
+        <header id="fullnav">
+            <div>
+                <img src="images/2220b03c0726ae6807b6de824e538e46.png" alt="Bank">
+            </div>
+            <ul class="listnav">
+                <li>БАНК</li>
+                <li>БИЗНЕС</li>
+                <li>ИНВЕСТИЦИИ</li>
+                <li>СТРАХОВАНИЕ</li>
+                <li>МОБАЙЛ</li>
+                <li>ПУТЕШЕСТВИЯ</li>
+                <li>РАЗВЛЕЧЕНИЯ</li>
+            </ul>
+            <div class="exit">ВОЙТИ</div>
+
+        </header>
+        <main>
+            <div class="main">
+                <h1 class="firsth">Конвертер валют онлайн</h1>
+                <div class="content">
+                    <div class="left">
+                        <p class="ch">У меня есть</p>
+                        <div class="change-buttons" id="firstCurrency">
+                            <button class="colored">RUB</button>
+                            <button>USD</button>
+                            <button>EUR</button>
+                            <button>GBP</button>
+                        </div>
+                        <div class="value-div">
+                            <input type="number" name="" id="amount" class="money" placeholder="00000" />
+                            <p class="one" id="outputFirst"></p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p class="ch">Хочу приобрести</p>
+                        <div class="change-buttons" id="secondCurrency">
+                            <button>RUB</button>
+                            <button class="colored">USD</button>
+                            <button>EUR</button>
+                            <button>GBP</button>
+                        </div>
+                        <div class="value-div">
+                            <input type="text" name="" id="outputResult" class="money" placeholder="00000" readonly />
+                            <p class="one" id="outputSecond"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="butColor.js"></script>
+    <script src="currency.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
